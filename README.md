@@ -38,27 +38,27 @@
 ### Backend
 
 1. Install dependencies:
-   python -m venv venv
-   venv\Scripts\activate
-   venv\Scripts\deactivate.bat
-   pip install fastapi uvicorn
+   - python -m venv venv
+   - venv\Scripts\activate
+   - venv\Scripts\deactivate.bat
+   - pip install fastapi uvicorn
 2. Run backend
-   uvicorn main:app --reload
+   - uvicorn main:app --reload
 
 ### Frontend
 
 1. Install dependencies:
-   npm install axios
+   - npm install axios
 2. Run frontend
-   npm install
+   - npm install
 
 ### Docker
 
 1. Run docker
-   docker build -t prediction-backend .
-   docker run -p 8000:8000 prediction-backend
-   docker build -t prediction-frontend .
-   docker run -p 3000:3000 prediction-frontend
-   docker-compose up --build
-   docker-compose down
-   docker-compose up
+   - docker build -t prediction-backend .
+   - docker run -p 8000:8000 prediction-backend
+   - docker build -t prediction-frontend .
+   - docker run -p 3000:3000 prediction-frontend
+   - docker-compose up --build
+   - docker-compose down
+   - docker-compose up
