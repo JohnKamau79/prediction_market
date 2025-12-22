@@ -54,11 +54,12 @@
 
 ### Docker
 
-1. Run docker
+1. Install containers
    - docker build -t prediction-backend .
-   - docker run -p 8000:8000 prediction-backend
    - docker build -t prediction-frontend .
-   - docker run -p 3000:3000 prediction-frontend
    - docker-compose up --build
+2. Run docker
+   - docker run -p 8000:8000 prediction-backend
+   - docker run -p 3000:3000 prediction-frontend
    - docker-compose down
    - docker-compose up
