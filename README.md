@@ -28,9 +28,9 @@
   - YES/NO markets displayed side-by-side with BUY/SELL tables
   - Recent trades section
 
-
 ### Docker
-- Basic docker setup for containerization and simultaneous starting up of project backend and frontend 
+
+- Basic docker setup for containerization and simultaneous starting up of project backend and frontend
 - You can run the full app (frontend + backend) using Docker with one command.
 
 ## How to Run
@@ -53,6 +53,7 @@
    npm install
 
 ### Docker
+
 1. Run docker
    docker build -t prediction-backend .
    docker run -p 8000:8000 prediction-backend
@@ -61,7 +62,3 @@
    docker-compose up --build
    docker-compose down
    docker-compose up
-
-
-
-
